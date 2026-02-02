@@ -1,0 +1,187 @@
+/* ------------------------
+   GLOBAL RESET
+------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f2f4f5;
+}
+
+/* ------------------------
+   LAYOUT
+------------------------- */
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ------------------------
+   SIDEBAR
+------------------------- */
+.sidebar {
+  width: 300px;
+  background: #ffffff;
+  border-right: 1px solid #dcdcdc;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+/* Expandable Category Header */
+.region-header {
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.region-header:hover {
+  color: #007bff;
+}
+
+.country-list {
+  margin-left: 15px;
+  margin-top: 5px;
+  display: none;
+}
+
+/* ------------------------
+   CONTENT
+------------------------- */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* ------------------------
+   TOPBAR
+------------------------- */
+.topbar {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.heading-typing {
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap;
+  border-right: 3px solid #007bff;
+  animation: typing 3s steps(20), blink .7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0px; }
+  to   { width: 260px; } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* ------------------------
+   BUTTONS
+------------------------- */
+.btn {
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056d2;
+}
+
+/* ------------------------
+   SEARCH BAR
+------------------------- */
+.search-box {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  outline: none;
+}
+
+/* ------------------------
+   TABLE
+------------------------- */
+.table-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.table-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-card th {
+  padding: 15px;
+  cursor: pointer;
+  background: #f7f9fa;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+}
+
+.table-card th:hover {
+  background: #eef2f7;
+}
+
+.table-card td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.table-row:hover {
+  background: #f9fbfd;
+}
+
+/* Icon buttons */
+.icon-btn {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* ------------------------
+   PAGINATION
+------------------------- */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.page-status {
+  font-size: 16px;
+}
