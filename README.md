@@ -1,47 +1,53 @@
 # IndiaDataHub Data Dashboard — React Assignment
-A fully functional & professional dashboard built for the IndiaDataHub Frontend Evaluation.
 
-A professional React-based data analytics dashboard built as part of the IndiaDataHub Frontend Assignment.
+A fully functional & professional dashboard built for the *IndiaDataHub Frontend Evaluation*.  
 The application visualizes economic datasets, supports multi-level category exploration, and includes advanced table interactions.
 
-🚀 Features
+---
 
-🔐 Login flow
+## 🔗 **Live Deployment**
+🚀 **View Project:** https://indiahub-data-dashboard.vercel.app/ 
+         
+         https://indiahub-data-dashboard.vercel.app/dashboard
 
-📊 Dashboard layout with sidebar + content view
+---
 
-📁 Expandable category sidebar (region → countries)
+## 🚀 Features
 
-🔍 Search functionality (global search)
+- 🔐 **Login flow**
+- 📊 **Dashboard layout** with sidebar + content view
+- 📁 **Expandable category tree** (region → countries)
+- 🔍 **Global search functionality**
+- ↕️ **Column sorting** (ascending/descending)
+- 📌 **Sticky table header**
+- ⭐ **Professional icons** (view, bookmark, download)
+- 🎨 **Modern and responsive UI**
+- 🌗 **Dark/Light mode toggle**
+- 📑 **Pagination** (10 rows per page)
+- 🔄 **IMF dataset switch** (optimized for heavy data)
+- ⬇️ **Export table data as CSV**
+- 🧭 **Smooth animations & interactive UX**
+- ⚡ **Performance optimized** with memoized operations
 
-↕️ Column sorting (ascending/descending)
+---
 
-📌 Sticky table header
+## 🛠️ Tech Stack
 
-⭐ Professional icons (view, bookmark, download)
+- ⚛️ **React (Vite)**
+- 🎨 **Pure CSS** (No Tailwind)
+- 🧭 **React Router**
+- 🗂️ **JSON-based dataset simulation**
+- 🧩 **Modular & scalable component architecture**
 
-🎨 Modern UI with beautiful responsive design
+---
 
-🌗 Dark/Light mode toggle
-
-📑 Pagination (10 rows per page)
-
-🔄 IMF dataset switch (heavy data optimized)
-
-⬇️ Export data as CSV
-
-🧭 Smooth animations & interactive UX
-
-⚡ Fully optimized for large datasets (memoized operations)
-
-🛠️ Tech Stack
-
-React (Vite)
-
-Pure CSS (no Tailwind required)
-
-React Router
-
-JSON-based dataset simulation
-
-Modular component architecture!
+## 📁 Folder Structure (Optional - Add if you want)
+```plaintext
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── styles/
+ ├── App.jsx
+ ├── main.jsx
+ └── ...
